@@ -1,2 +1,1 @@
-# Doggify
-https://mattbeachey.github.io/doggify/
+https://paulrobhendrickson.github.io/doggifyy/.
