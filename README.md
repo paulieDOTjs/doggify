@@ -1,5 +1,5 @@
 # Doggify
-https://paulrobhendrickson.github.io/doggifyy/
+https://paulrobhendrickson.github.io/doggify/
 
 Welcome to Doggify! The app that pairs you with a dog breed and vacation spot to match your personality!
 
