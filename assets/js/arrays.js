@@ -58,7 +58,7 @@ const vacayQuestions = [
 
 let allQuestions = [];
 allQuestions = _.concat(vacayQuestions[Math.floor(Math.random() * vacayQuestions.length)], dogQuestions[0], dogQuestions[1], dogQuestions[2]);
-console.log(allQuestions);
+
 function shuffle(a) {
     let j, x, i;
     for (i = a.length - 1; i > 0; i--) {

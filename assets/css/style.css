@@ -7,15 +7,11 @@ body {
   align-items: center;
 }
 
-/* div {
-  border: 2px solid black;
-} */
-
 .spacer {
   width: 100%;
   height: 100px;
   transition: 1s;
-  /* border: 2px solid black; */
+
 }
 
 .header-big {
@@ -36,7 +32,6 @@ body {
   -webkit-text-stroke-color: #c4a600;
   z-index: 2;
   transition: all 1s;
-  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
 }
 
 .header-small {
@@ -76,11 +71,8 @@ body {
 .mainflex {
   width: 80%;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   transition: 1s;
-
-  /* border: 2px solid black; */
 }
 
 .quizButton {
@@ -91,17 +83,10 @@ body {
 .mainflexClick {
   width: 80%;
   display: flex;
-  /* justify-content: space-between; */
-  /* align-items: flex-start; */
   transition: 1s;
-  /* border: 2px solid black; */
 }
 
-.testing-realm {
-  /* margin-top: 200px; */
-}
-
-.inherit{
+.inherit {
   font-size: inherit;
 }
 
@@ -126,8 +111,6 @@ body {
   cursor: pointer;
 }
 
-
-
 p {
   text-align: center;
   font-family: 'Solway', serif;
@@ -137,16 +120,12 @@ p {
   margin: 16px;
 }
 
-.dogQ{
-  /* margin-top:200px; */
+.dogQ {
   transition: 1s;
 }
 
 .dogQuestionBox {
-  /* background-color: rgba(255, 105, 180, 0.589);
-  transform: skew(20deg); */
   width: 80%;
-  /* height: 500px; */
   text-align: center;
   color: black;
   font-weight: bolder;
@@ -155,11 +134,7 @@ p {
   transform: all 1s;
 }
 
-
-.dogQ0,
-.dogQ1,
-.dogQ2,
-.dogQ3 {
+.dogQ0, .dogQ1, .dogQ2, .dogQ3 {
   text-align: center;
   font-family: 'Solway', serif;
   color: black;
@@ -188,56 +163,38 @@ p {
   width: 0;
   height: 0;
   border-bottom: 18px solid #757c55;
-  border-left: 18px solid #b8c482;   
+  border-left: 18px solid #b8c482;
 }
 
-/* .dogQ0:before,
-.dogQ1:before,
-.dogQ2:before,
-.dogQ3:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-width: 0 16px 16px 0;
-  border-style: solid;
-  border-color: #b8c482 #b8c482 #658E15 #658E15;
-  background: #658E15;
- -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
-  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
-  box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
-  display: block; width: 0;
-} */
-
 .dogQ0 {
-transform: rotate(6deg);
-position: relative;
-top: 20%;
-left: -3%;
+  transform: rotate(6deg);
+  position: relative;
+  top: 20%;
+  left: -3%;
 }
 
 .dogQ1 {
-transform: rotate(-6deg);
-position: relative;
-top: 20%;
-left: 57%;
+  transform: rotate(-6deg);
+  position: relative;
+  top: 20%;
+  left: 57%;
 }
 
 .dogQ2 {
-transform: rotate(6deg);
-position: relative;
-top: 20%;
-left: -3%;
+  transform: rotate(6deg);
+  position: relative;
+  top: 20%;
+  left: -3%;
 }
 
 .dogQ3 {
-transform: rotate(-6deg);
-position: relative;
-top: 20%;
-left: 57%;
+  transform: rotate(-6deg);
+  position: relative;
+  top: 20%;
+  left: 57%;
 }
 
-.yes-button{
+.yes-button {
   border: 2px solid rgb(31, 31, 31);
   border-radius: 4px;
   background-color: rgb(31, 31, 31);
@@ -256,19 +213,19 @@ left: 57%;
 }
 
 .quiz {
-    background-color: rgba(255, 255, 255, 0.664);
-    border-radius: 16px;
-    width: 70%;
-    position: absolute;
-    top: 30%;
-    transition: 1s;
-    padding: 2%;
-    font-family: 'Solway', serif;
-    color: black;
-    font-weight: bolder;
-    font-size: 20px;
-    margin: 16px;
-  }
+  background-color: rgba(255, 255, 255, 0.664);
+  border-radius: 16px;
+  width: 70%;
+  position: absolute;
+  top: 30%;
+  transition: 1s;
+  padding: 2%;
+  font-family: 'Solway', serif;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 16px;
+}
 
 .disappear {
   height: 0px;
@@ -287,7 +244,7 @@ left: 57%;
   cursor: pointer;
 }
 
-.prompt-screen{
+.prompt-screen {
   font-size: 30px;
 }
 
@@ -295,18 +252,10 @@ left: 57%;
   background-color: #fde24abb;
   transition: 0s;
 }
-  
+
 ::selection {
   background: #fde24a;
 }
-
-/* .container {
-  border: 2px solid black;
-}
-
-.row {
-  border: 2px solid black;
-} */
 
 .picturebox {
   height: 200px;
@@ -324,11 +273,12 @@ left: 57%;
   border-radius: 16px;
 }
 
-
 @media screen and (max-width: 992px) {
-  .dogimage,
-  .dogimageSmall,
-  .dogimageResults {
+  .resultsbox{
+    margin-top: 100px;
+  }
+
+  .dogimage, .dogimageSmall, .dogimageResults {
     opacity: 0.3;
   }
   .dogimage {
@@ -341,26 +291,20 @@ left: 57%;
     width: 75%;
     position: absolute;
     top: 40%;
-    
   }
-  .dogQ0,
-  .dogQ1,
-  .dogQ2,
-  .dogQ3 {
+  .dogQ0, .dogQ1, .dogQ2, .dogQ3 {
     position: relative;
     left: 0%;
     transform: rotate(0deg);
-
   }
-  .yes-button{
+  .yes-button {
     margin-top: 48px;
-
   }
   .dogimageResults {
     height: 300px;
     width: 300px;
   }
-  .prompt-screen{
+  .prompt-screen {
     font-size: 18px;
   }
   .start-instruction {
@@ -373,6 +317,3 @@ left: 57%;
     font-size: 20px;
   }
 }
-
-
-

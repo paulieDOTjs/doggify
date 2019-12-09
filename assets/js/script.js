@@ -308,7 +308,6 @@ function initProgram() {
     const renderTextEl = document.createElement("p");
 
     renderTextEl.innerText = descriptionText;
-    console.log(descriptionText)
 
     finalResultsBoxEl.prepend(renderTextEl);
 
